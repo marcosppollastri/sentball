@@ -1,0 +1,30 @@
+
+<div class="jumbotron">
+    <div class="container">
+        <h1>{{title}}</h1>
+        <p>Seminario II - UNLAR</p>
+    </div>
+</div>
+
+
+<form action="/stream" method="POST" role="form">
+    <legend>Busca un tweet</legend>
+
+    <div class="form-group">
+        <label for="" class="col-sm-2">Termino a buscar</label>
+        <input type="text" class="form-control col-sm-2 col-md-6" id="q" name="q" placeholder="¿Qué desea buscar?">
+        
+        <label for="lang" class="col-sm-2">Lenguaje</label>
+        
+        <input type="radio" name="lang" value="es"> Español<br>
+        <input type="radio" name="lang" value="en"> Ingles<br>        
+        
+
+                    
+    </div>
+
+    
+
+    <button type="submit" class="btn btn-primary">Buscar</button>
+</form>
+
